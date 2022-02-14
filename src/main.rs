@@ -3,6 +3,7 @@ mod bridge;
 mod builder;
 mod command;
 mod factory;
+mod observer;
 use crate::adapter::adapter::function_adapter;
 use crate::bridge::bridge::{Adapter, ObjectX, ObjectY};
 use crate::builder::builder::{AliceBuilder, Director};
@@ -80,4 +81,5 @@ fn main() {
             dy: 0,
         }
     );
+    
 }
